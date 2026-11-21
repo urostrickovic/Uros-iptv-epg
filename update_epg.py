@@ -139,5 +139,5 @@ print(f"Test output: {OUTPUT_FILE}")
 
 if unmatched_ids:
     print("\nSome source channel IDs did not match:")
-    for channel_id, count in list(unmatched_ids.items())[:30]:
+    for channel_id, count in list(unmatched_ids.items()):
         print(f"{channel_id}: {count}")
